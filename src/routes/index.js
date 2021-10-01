@@ -3,13 +3,12 @@ const router = Router();
 
 const nodemailer = require('nodemailer');
 
-// router.get('/halo', (req, res) => {
-//     const data = {
-//         "name": "maikol",
-//         "sda": 'halo'
-//     };
-//     res.json(data)
-// });
+router.get('/halo', (req, res) => {
+    const data = {
+        "server": "server listo"
+    };
+    res.json(data)
+});
 
 router.post('/email', async (req, res) => {
     // console.log(req.body);
