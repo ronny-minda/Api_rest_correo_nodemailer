@@ -4,9 +4,8 @@ const router = Router();
 const nodemailer = require('nodemailer');
 
 router.get('/halo', (req, res) => {
-    // const data = {
-    //     "server": "server listo"
-    // };
+
+    
     res.status(200).send({ success: true });
 });
 
